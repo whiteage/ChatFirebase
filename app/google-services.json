@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526924992388",
+    "project_id": "courserrs",
+    "storage_bucket": "courserrs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526924992388:android:5db7f49d3ff662b1b9d7d1",
+        "android_client_info": {
+          "package_name": "com.example.chatfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAgYU7uAXF0V-C-PoZYTYNHTSHv_DEZGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526924992388:android:b83a708503ebec89b9d7d1",
+        "android_client_info": {
+          "package_name": "com.example.courser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAgYU7uAXF0V-C-PoZYTYNHTSHv_DEZGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
