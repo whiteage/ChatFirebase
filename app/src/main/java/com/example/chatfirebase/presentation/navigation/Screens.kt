@@ -8,5 +8,5 @@ sealed class Screens(val route: String) {
     object MainScreen : Screens("MainScreen")
     object ChatCard : Screens("ChatCard")
     object MasssangerCard : Screens("MasssangerCard")
-
+    object DaialogScreen : Screens("DaialogScreen")
 }

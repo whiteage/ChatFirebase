@@ -59,7 +59,7 @@ fun MainScreen(navHostController : NavHostController, viewModel: MainVM) {
                 .padding(innerPadding)
         ) {
             itemsIndexed(items = dummyChats) { _, item ->
-                ChatCard(item)
+                ChatCard(item, navHostController)
             }
         }
     }

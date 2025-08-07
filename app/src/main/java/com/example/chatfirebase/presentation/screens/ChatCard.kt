@@ -25,14 +25,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.chatfirebase.presentation.entity.ChatCardEntity
+import com.example.chatfirebase.presentation.navigation.Screens
 import com.example.chatfirebase.presentation.viewmodel.MainVM
 
 @Composable
-fun ChatCard(chatItem: ChatCardEntity) {
+fun ChatCard(chatItem: ChatCardEntity, navHostController: NavHostController) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable { /* Обработка нажатия на чат */ }
+            .clickable { navHostController.navigate(Screens.DaialogScreen.route) }
             .padding(16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {

@@ -13,6 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.chatfirebase.domain.entity.AuthStates
 import com.example.chatfirebase.presentation.screens.ChatCard
+import com.example.chatfirebase.presentation.screens.DialogScreen
 import com.example.chatfirebase.presentation.screens.LoginScreen
 import com.example.chatfirebase.presentation.screens.MainScreen
 import com.example.chatfirebase.presentation.screens.RegisterScreen
@@ -37,11 +38,14 @@ fun Navig(viewModel: MainVM) {
             composable(Screens.MainScreen.route) {
                 MainScreen(navHostController, viewModel)
             }
-            composable(Screens.RegistrationScreen.route) {
+            composable(Screens.LoginScreen.route) {
                 LoginScreen(navHostController, viewModel)
             }
             composable(Screens.RegistrationScreen.route) {
                 RegisterScreen(navHostController, viewModel)
+            }
+            composable(Screens.DaialogScreen.route) {
+                DialogScreen()
             }
         }
 
